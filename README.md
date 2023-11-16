@@ -2,13 +2,13 @@
 
 Vamos criar um projeto de aplicação web utilizando React para sua apresentação pessoal. O sistema deve apresentar as seguintes informações, divididas por telas: 
 
-Sobre você (nome, endereço etc.) 
+1° Sobre você (nome, endereço etc.) 
 
-Formação 
+2° Formação 
 
-Experiência 
+3° Experiência 
 
-Hobbies 
+4° Hobbies 
 
 Utilizar o React para criar as telas. 
 
