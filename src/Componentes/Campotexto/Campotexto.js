@@ -1,13 +1,21 @@
-import './Campotexto.css'
+import React from 'react';
+import './Campotexto.css';
 
-export const Campotexto = (props) => {
+const Campotexto = (props) => {
+  const { label, placeholder, value, onInput } = props;
+  const placeholdermodificado = `${placeholder}...`;
 
-    const placeholdermodificado = `${props.placeholder}...`
-
-    return (
-        <div>
-            <label>{props.label}</label>
-            <input placeholder={placeholdermodificado}/>
-        </div>
-    )
+  return (
+    <div className="campo-texto">
+      <label>{label}</label>
+      <input
+        type="text"
+        placeholder={placeholdermodificado}
+        value={value}
+        onInput={onInput}
+      />
+    </div>
+  );
 }
+
+export default Campotexto;

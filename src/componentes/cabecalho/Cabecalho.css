@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    background-color: black;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.cabecalho h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+.cabecalho ul{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho li{
+    margin: 0px 10px;
+    list-style: none;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cabecalho li:hover{
+    color: brown;
+}

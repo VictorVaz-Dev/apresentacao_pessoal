@@ -1,15 +1,14 @@
-import { Formulario } from "./Componentes/Formulario/Formulario";
+import './App.css'
+import Formulario from './componentes/Formulario/Formulario'   
+import Cabecalho from './componentes/cabecalho/Cabecalho'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Cabecalho/>
       <Formulario/>
-
     </div>
+
   );
 }
-
 export default App;
