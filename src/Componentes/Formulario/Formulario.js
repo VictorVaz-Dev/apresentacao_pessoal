@@ -36,7 +36,7 @@ const Formulario = () => {
 
     return (
         <section className="Formulario">
-            <form >
+              <form >
                 <h2>Digite os seus dados:</h2>
                 <Campotexto label="Nome" placeholder="Digite seu nome" />
                 <Campotexto label="CPF" placeholder="Digite seu CPF" />
@@ -54,7 +54,7 @@ const Formulario = () => {
                 <Campotexto label="Endereço" placeholder="Digite seu endereço" value={endereco} />
                 <Campotexto label="Bairro" placeholder="Digite seu Bairro" value={bairro} />
                 <Campotexto label="Cidade" placeholder="Digite sua cidade" value={cidade} />
-            </form>
+              </form>
         </section>
     )
 }

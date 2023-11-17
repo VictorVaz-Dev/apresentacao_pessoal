@@ -1,14 +1,16 @@
 import './App.css'
-import Formulario from './componentes/Formulario/Formulario'   
-import Cabecalho from './componentes/cabecalho/Cabecalho'
+import Rotas from './Rotas/Rotas';
+import Rodape from './componentes/Rodape/Rodape.js';
+import Cabecalho from './componentes/cabecalho/Cabecalho.js'
 
 function App() {
   return (
     <div className="App">
       <Cabecalho/>
-      <Formulario/>
+      <Rotas/>
+      <Rodape/>
     </div>
-
   );
 }
-export default App;
+
+export default App

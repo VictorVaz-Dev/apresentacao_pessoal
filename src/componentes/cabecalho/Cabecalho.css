@@ -16,20 +16,30 @@ header{
     color: antiquewhite;
 }
 
-.cabecalho ul{
+.cabecalho div{
     display: flex;
     align-items: center;
 }
 
-.cabecalho li{
+.lista a{
     margin: 0px 10px;
-    list-style: none;
+    text-decoration: none;
     color: antiquewhite;
     font-weight: 600;
     cursor: pointer;
     transition: 1s;
 }
 
-.cabecalho li:hover{
+.active{
+    color: brown;
+}
+
+@media screen and (max-width:560px){
+    .cabecalho li{
+        font-size: 13px;
+    }
+}
+
+.cabecalho a:hover{
     color: brown;
 }
