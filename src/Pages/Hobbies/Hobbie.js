@@ -1,4 +1,4 @@
-import Campotexto from "../../componentes/Campotexto/Campotexto"
+import Campotexto from "../../Componentes/Campotexto/Campotexto"
 import './Hobbie.css'
 
 function Hobbie(){
