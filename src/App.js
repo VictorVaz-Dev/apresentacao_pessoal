@@ -1,7 +1,7 @@
 import './App.css'
 import Rotas from './Rotas/Rotas';
 import Rodape from './Componentes/Rodape/Rodape.js';
-import Cabecalho from './Componentes/Cabecalho/Cabecalho.js'
+import Cabecalho from './Componentes/cabecalho/Cabecalho.js'
 
 function App() {
   return (
