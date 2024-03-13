@@ -21,15 +21,6 @@ header{
     align-items: center;
 }
 
-.lista a{
-    margin: 0px 10px;
-    text-decoration: none;
-    color: antiquewhite;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 1s;
-}
-
 .active{
     color: brown;
 }
@@ -38,8 +29,4 @@ header{
     .cabecalho li{
         font-size: 13px;
     }
-}
-
-.cabecalho a:hover{
-    color: brown;
 }

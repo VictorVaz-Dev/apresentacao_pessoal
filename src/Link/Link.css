@@ -1,0 +1,12 @@
+.lista a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cabecalho a:hover{
+    color: brown;
+}
