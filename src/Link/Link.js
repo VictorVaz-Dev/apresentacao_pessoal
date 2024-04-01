@@ -3,13 +3,13 @@ import React from "react";
 import './Link.css';
 
 const Link = (props) =>{
-    const {to} = props;
+    const {to, label} = props;
 
     return(
         <div>
             <NavLink to={to} className={({ isActive, isPending }) => 
                 isPending ? "pending" : isActive ? "active" : ""}>
-                     Home
+                     {label}
             </NavLink>
         </div>
     )

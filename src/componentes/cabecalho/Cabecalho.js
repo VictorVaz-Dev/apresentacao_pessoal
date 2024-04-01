@@ -8,10 +8,10 @@ const Cabecalho = () => {
             <div className="cabecalho">
                 <h2><a>CEP.com</a></h2>
                 <div className="lista">
-                    <Link to="/Home">Home</Link>
-                    <Link to="/Experiencia">Experiência</Link>
-                    <Link to="/Formacao">Formação</Link>
-                    <Link to="/Hobbies">Hobbies</Link>
+                    <Link to="/Home" label="Home"></Link>
+                    <Link to="/Experiencia" label="Experiência"></Link>
+                    <Link to="/Formacao" label="Formação"></Link>
+                    <Link to="/Hobbies" label="Hobbies">Hobbies</Link>
                 </div>
             </div>
         </header>
